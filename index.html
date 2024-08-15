@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="">
+        <h1 class="titulo-principal">IMC - Indice de Massa Corporal</h1>
+        <p>O modo mais fácil para determinar se você está muito obeso é entender seu índice de massa corporal(IMC). Quanto mais alto seu IMC, maior seu risco de ter determinados problemas de saúde, como doenças do coração, diabetes e pressão alta. O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em metros)</p>
+    </div>
+
+    <form id="formulario">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="number">Peso</label>
+        <input type="number" id="peso" name="peso"><br>
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" name="altura"><br>
+    </form>
+    <button onclick="resultIMC()" class="container__botao">Enviar</button>
+
+    <div class="container_texto">
+        <h2></h2>
+        <h3></h3>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>

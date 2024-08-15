@@ -1,0 +1,21 @@
+body{
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 75%;   /* A div ocupa 75% da largura do contêiner pai */
+    height: 150px; /* Altura da div é de 150 pixels */
+}
+
+form {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Fundo suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  }
+  
+  form label {
+    display: block; /* Cada label em uma nova linha */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
